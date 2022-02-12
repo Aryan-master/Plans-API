@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "pg": "^8.7.1",
+    "uuid": "^8.3.2"
+  },
+  "name": "plans-api",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^17.0.9",
+    "typescript": "^4.5.4"
+  }
+}
